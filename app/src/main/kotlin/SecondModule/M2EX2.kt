@@ -10,13 +10,14 @@ fun main() {
     repeatGreetings()
 }
 
-fun cubes(){
+fun cubes() {
     println("Тепеpь выводятся кубы чисел")
-    var i= 1
+    var i = 1
     do {
-        println("Куб числа $i = ${i*i*i}")
+        println("Куб числа $i = ${i * i * i}")
     } while (i++ < catsNumber.size)
 }
+
 fun repeatGreetings() {
     println("И сейчас \"Привет, мир!\" выведется 10 раз")
     repeat(10) {
