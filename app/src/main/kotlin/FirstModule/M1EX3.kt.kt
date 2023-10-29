@@ -6,11 +6,12 @@
 
 package FirstModule
 
+var catsCountFM: Int = 5
+var catsNamesFM: Array<String> = (arrayOf("Тамик", "Мурка", "Леха", "Пончик", "Рыжик"))
+val myStringFM: String = "Улины коты"
+
 
 fun main() {
-    var catsCountFM: Int = 5
-    var catsNamesFM: Array<String> = (arrayOf("Тамик", "Мурка", "Леха", "Пончик", "Рыжик"))
-    val myStringFM: String = "Улины коты"
     println(myStringFM + ": " + catsCountFM + " штук. Вот как их зовут:" + catsNamesFM.asList())
     catsCountFM = catsCountFM - 3
     catsNamesFM = arrayOf("Тамик", "Мурка")
