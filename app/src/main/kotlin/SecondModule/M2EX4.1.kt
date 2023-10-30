@@ -7,11 +7,10 @@
 package SecondModule
 
 import java.util.InputMismatchException
-import java.util.Scanner
 
 fun main() {
     try {
-      scanner()
+        scanner()
         println("Введенное значение: $catsCountSM")
     } catch (e: InputMismatchException) {
         println("Ошибка. Введено не целое число")

@@ -6,17 +6,18 @@ package SecondModule
 
 fun main() {
     while (true) {
-    scanner()
-    if (catsCountSM < 0) {
-        println("Количество котов $catsCountSM. Rip котик")
+        scanner()
+        if (catsCountSM < 0) {
+            println("Количество котов $catsCountSM. Rip котик")
+        }
+        if (catsCountSM == 0) {
+            println("У Ули ноль котов")
+        }
+        if (catsCountSM > 0) {
+            println("Количество котов у Ули: $catsCountSM ")
+        }
     }
-    if  (catsCountSM == 0) {
-        println("У Ули ноль котов")
-    }
-    if (catsCountSM > 0) {
-        println("Количество котов у Ули: $catsCountSM ")
-    }
-}}
+}
 
 
 

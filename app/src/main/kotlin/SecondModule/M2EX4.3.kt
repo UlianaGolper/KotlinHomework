@@ -3,18 +3,17 @@
 // и обработайте это исключение, выводя стек вызовов.
 package SecondModule
 
-fun main(){
+fun main() {
     division()
 }
 
-fun division () {
+fun division() {
     try {
         var d = 6
         var b = 0
         var c = d / b
         println(c)
-    }
-    catch (e:ArithmeticException) {
+    } catch (e: ArithmeticException) {
         println("На ноль делить нельзя")
         e.printStackTrace()
     }

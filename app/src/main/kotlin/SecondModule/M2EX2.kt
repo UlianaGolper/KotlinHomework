@@ -13,11 +13,12 @@ fun main() {
     repeatGreetings()
 }
 
-fun getSquares(){
-println("Cначала выводятся квадраты чисел")
-for (i in catsNumberSM) {
-    println("квадрат $i = ${i * i}")
-}}
+fun getSquares() {
+    println("Cначала выводятся квадраты чисел")
+    for (i in catsNumberSM) {
+        println("квадрат $i = ${i * i}")
+    }
+}
 
 fun getCubes() {
     println("Тепеpь выводятся кубы чисел")
