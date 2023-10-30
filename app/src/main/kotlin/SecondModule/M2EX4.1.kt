@@ -11,10 +11,8 @@ import java.util.Scanner
 
 fun main() {
     try {
-        val scanner = Scanner(System.`in`)
-        println("Введите целое число")
-        val input = scanner.nextInt()
-        println("Введенное значение: $input")
+      scanner()
+        println("Введенное значение: $catsCountSM")
     } catch (e: InputMismatchException) {
         println("Ошибка. Введено не целое число")
     } finally {
