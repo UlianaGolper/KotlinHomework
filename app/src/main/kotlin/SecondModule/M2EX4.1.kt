@@ -14,7 +14,7 @@ fun main() {
       scanner()
         println("Введенное значение: $catsCountSM")
     } catch (e: InputMismatchException) {
-        println("Ошибка. Введено не целое число")
+        println("Ошибка. Введено не целое число") //дописать обработку буквенного ввода (ошибка)
     } finally {
         println("Конец программы")
     }

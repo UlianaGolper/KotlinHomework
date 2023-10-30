@@ -7,6 +7,6 @@ fun main() {
         println("У Ули отрицательное количество котов")
     } else if (catsCountSM == 0) {
         println("У Ули ноль котов")
-    } else if (catsCountSM > 0)
+    } else (catsCountSM > 0)
         println("Количество котов: $catsCountSM")
 }}
