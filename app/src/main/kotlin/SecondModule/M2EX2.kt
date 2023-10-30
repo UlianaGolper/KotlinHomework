@@ -8,7 +8,6 @@ package SecondModule
 var catsNumberSM: Array<Int> = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 fun main() {
-// выписать в отдельную функцию и вызвать только  функции в main
     getSquares()
     getCubes()
     repeatGreetings()

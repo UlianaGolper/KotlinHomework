@@ -11,5 +11,7 @@
 /app/src/androidTest
 /app/src/main/kotlin/com/example/kotlinhomework
 /app/src/main/res
+/app/build
+/app/build.gradle.kts
 
 
