@@ -40,13 +40,16 @@ fun sumNumbers(numbers: Array<Int>): Any {
 fun breakCycle() {
     println("Ниже вывод вложенного цикла, который обрабатывает двузначные числа от 10 до 99 и прекращающий обработку, когда сумма текущих чисел превышает 50")
     for (i in 1..9) { //цикл по десяткам
-        for (j in 1..9) { //цикл по остаткам
-            var tenth = i * 10 // получаем десятки
-            var sum = tenth + j //сумма десятков и единиц
+       //for (i in 10..99) {
+        for (j in 10..99) { //цикл по остаткам
+          var tenth = i*10
+           var sum = tenth + j
+          //  var sum = i+j
             if (sum > 50) {
                 break
             }
-            println("Сумма $tenth + $j равна: $sum")
+          println("Сумма $tenth + $j равна: $sum")
+           // println("Сумма $i + $j равна: $sum")
         }
     }
 }
