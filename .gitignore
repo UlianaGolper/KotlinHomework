@@ -8,6 +8,10 @@
 /gradlew.bat
 /local.properties
 /settings.gradle.kts
-/Users/uliana/KotlinHomework/app/src/androidTest
-/Users/uliana/KotlinHomework/app/src/main/kotlin/com/example/kotlinhomework
-/Users/uliana/KotlinHomework/app/src/main/res
+/app/src/androidTest
+/app/src/main/kotlin/com/example/kotlinhomework
+/app/src/main/res
+/app/build
+/app/build.gradle.kts
+
+

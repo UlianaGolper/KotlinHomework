@@ -8,16 +8,19 @@ package SecondModule
 var catsNumberSM: Array<Int> = arrayOf(1, 2, 3, 4, 5, 6, 7, 8, 9, 10)
 
 fun main() {
+    getSquares()
+    getCubes()
+    repeatGreetings()
+}
 
+fun getSquares() {
     println("Cначала выводятся квадраты чисел")
     for (i in catsNumberSM) {
         println("квадрат $i = ${i * i}")
     }
-    cubes()
-    repeatGreetings()
 }
 
-fun cubes() {
+fun getCubes() {
     println("Тепеpь выводятся кубы чисел")
     var i = 1
     do {
