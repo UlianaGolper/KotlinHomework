@@ -5,7 +5,7 @@ package ThirdModule
 // Используйте аннотацию tailrec для оптимизации.
 
 fun main() {
-    var n = 8
+    var n = 10
     println(generateSequence(n))
 }
 
