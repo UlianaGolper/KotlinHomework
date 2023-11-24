@@ -1,7 +1,5 @@
 package ThirdModule
 
-import androidx.compose.ui.text.toUpperCase
-
 //Задание 5: Создайте список имен и используйте функции let, run, also, apply и with
 // для выполнения различных операций над этим списком (например, добавьте имя, удалите имя,
 // переверните список и т. д.).
@@ -44,17 +42,28 @@ fun invertList(names: MutableList<String>) {
 }
 
 fun sortList(MutableList: MutableList<String>) {
-   names.run { this.sort()
-    println("Элементы списка после сортировки элементов по алфавиту: $this") }
+    names.run {
+        this.sort()
+        println("Элементы списка после сортировки элементов по алфавиту: $this")
+    }
 
 }
 
 fun namesToUpperCase(MutableList: MutableList<String>) {
- names.apply{
-     forEachIndexed { index, name ->
-         set(index, name.uppercase())
-     }
-     
-println("Имена в верхнем регистре: $names")
-}}
+    names.apply {
+        forEachIndexed { index, name ->
+            set(index, name.uppercase())
+        }
+
+        println("Имена в верхнем регистре: $names")
+    }
+//    fun main() {
+//        val names = mutableListOf("Анна", "Сергей", "Иван")
+//        names.also { it.add("Мария") }
+//            .apply { removeAt(1) }
+//            .apply { this[0] = this[0].toUpperCase() }
+//            .also { it.reverse() }
+//            .also { println(it) }
+//    }
+}
 

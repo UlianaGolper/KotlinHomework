@@ -7,9 +7,10 @@ package ThirdModule
 fun main() {
     var a = 12
     var b = 3
-    println(isGreater(a, b))
+    var result = a isGreater b
+    print(result)
 }
 
-fun isGreater(a: Int, b: Int): Boolean {
-    return a > b
+infix fun Int.isGreater(other: Int): Boolean {
+    return this > other
 }
